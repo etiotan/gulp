@@ -1,0 +1,20 @@
+{
+  "name": "etio",
+  "description": "trying gulp",
+  "main": "index.js",
+  "authors": [
+    "etiotan <etiotan@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

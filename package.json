@@ -1,0 +1,26 @@
+{
+  "name": "etio",
+  "version": "1.0.0",
+  "description": "trying gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "mkdirp": "^0.5.1",
+    "run-sequence": "^1.2.2",
+    "touch": "^1.0.0"
+  },
+  "dependencies": {
+    "del": "^2.2.2"
+  }
+}
