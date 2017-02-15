@@ -11,8 +11,17 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     mkdirp = require('mkdirp'),
     touch = require('touch'),
-    runSequence = require('run-sequence');
+    runSequence = require('run-sequence'),
+    imagemin = require('gulp-imagemin');
 
+/* ///////////////////////////////////////
+Image Minifier
+*/ ///////////////////////////////////////
+gulp.task('imagemin', function() {
+    return gulp.src('app/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('app/images/*'))
+});
 /* ///////////////////////////////////////
 Sass/Pug/Uglify
 */ ///////////////////////////////////////
