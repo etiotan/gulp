@@ -6,4 +6,4 @@ A simple Gulp work-flow the functionalities are:
 2.  Compresses CSS/JS
 3.  Removes unnecessary files from the final build for upload
 4.  Creates folder structures and files for new projects according to my preference
-5.  Will be changed accordingly
+
